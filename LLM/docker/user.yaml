@@ -1,0 +1,8 @@
+user: bondasch
+uid: 223002
+group: MLO-unit
+gid: 11218
+symlinks: # Note if the targets don't exist the pod might fail to start (especially bashrc)
+  /mlodata1/bondasch/.ssh: /home/bondasch/.ssh
+#  /mlodata1/pagliard/codes: /home/pagliard/codes
+#  /mlodata1/pagliard/.bashrc: /home/pagliard/.bashrc
